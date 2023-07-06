@@ -1,43 +1,6 @@
 ---
 import BookItem from "./BookItem.astro"
-
-const books = [
-    {
-        id: 'clean-code',
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
-        img: 'https://m.media-amazon.com/images/I/41xShlnTZTL._AC_UF894,1000_QL80_.jpg'
-    },
-
-    {
-        id: 'pragmatic-programmer',
-        title: 'Pragmatic Programmer, The: Your journey to mastery, 20th Anniversary Edition',
-        img: 'https://m.media-amazon.com/images/I/71f743sOPoL._SL1500_.jpg'
-    },
-
-    {
-        id: 'c++-high-performance',
-        title: 'C++ High Performance: Master the art of optimizing the functioning of your C++ code, 2nd Edition',
-        img: 'https://m.media-amazon.com/images/I/717h6ceqKJL._SL1360_.jpg'
-    },
-
-    {
-        id: 'The-Art-of-Writing-Efficient',
-        title: 'The Art of Writing Efficient Programs: An advanced programmers guide to efficient hardware utilization and compiler optimizations using C++ examples',
-        img: 'https://m.media-amazon.com/images/I/71As4VWiOWL._SL1360_.jpg'
-    },
-    
-    {
-        id: 'A-Philosophy-of-Software-Design',
-        title: 'A Philosophy of Software Design, 2nd Edition',
-        img: 'https://m.media-amazon.com/images/I/711Qnv05eTL._SL1231_.jpg'
-    },
-
-    {
-        id: 'Designing-Data-Intensive-Applications',
-        title: 'Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems',
-        img: 'https://m.media-amazon.com/images/I/91YfNb49PLL._AC_SL1500_.jpg'
-    }
-]
+import { books } from "../data/books" 
 ---
 
 
