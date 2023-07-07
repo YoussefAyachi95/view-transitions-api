@@ -13,7 +13,7 @@ if (!info){
 
 <Layout title={`${info.title} Book`}>
     <main class="m-auto max-w-4xl">
-        <div class="grid grid-cols-2 gap-x-8 mt-20">
+        <div class="grid grid-cols-[350px_1fr] gap-x-12 mt-20">
 
             <div class="flex flex-col">
                 <picture class="mb-8 w-full relative">
@@ -30,8 +30,8 @@ if (!info){
             </div>
 
             <aside>
-                <h1 class="text-6xl font-black mb-4">{info.title}</h1>
-                <p class="text-lg">{info.opinion}</p>
+                <h1 class="text-5xl font-black mb-4">{info.title}</h1>
+                <p class="text-lg mb-4">{info.opinion}</p>
                 <p>
                     <strong>Author:</strong>
                     <span class="font-semibold text-gray-800">{info.author}</span>
